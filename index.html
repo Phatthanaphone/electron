@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="index.css">
+    <title>My Electron App</title>
+  </head>
+  <body>
+	  <div class="header">
+		<h1>File Upload Page</h1>
+	</div>
+	<div class="upload-container">
+    <div class="add">
+		<div class="upload-btn-wrapper">
+			<button class="btn">
+				<i class="fa fa-camera"></i>
+				<span>Choose a file</span>
+			</button>
+			<input type="file" name="myfile" id="file-input" />
+      
+      
+		</div>
+    <img src="./icon/upload.png" id="submit-btn">
+  </div>
+		<div class="file-details">
+			<!-- <h3>No file selected</h3> -->
+			<h3>No file selected</h3>
+			<a></a>
+			<div class="progress-bar">
+				<div class="progress"></div>
+			</div>
+			<div class="status"></div>
+		</div>
+	</div>
+  <script>
+     
+  </script>
+    <!-- <input type="file" id="file-input">
+    <img src="./icon/upload.png">
+    <button class="btn btn-primary" id="submit-btn">Submit</button> -->
+    <script src="sendFile.js"></script>
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
